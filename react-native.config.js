@@ -6,9 +6,9 @@ module.exports = {
         android:{},
     },
     'react-native-vector-icons':{
-    platform:{
-        ios:null,
-    },
+    // platform:{
+    //     ios:null,
+    // },
 },
 assets:['./src/assets/fonts'],
 getTransformModulePath(){
