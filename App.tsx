@@ -1,14 +1,11 @@
-import {View, Text, StyleSheet} from 'react-native';
-import React from 'react';
 import Navigation from './src/navigation/Navigation';
+import React from 'react';
 
 const App = () => {
   return (
-    <View>
-     
-      <Text>Hello react native</Text>
-       {/* <Navigation /> */}
-    </View>
+    <>
+      <Navigation />
+    </>
   );
 };
 

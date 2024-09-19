@@ -1,19 +1,21 @@
-import React, {FC} from 'react';
+import React from 'react';
+
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
-import SplashScreen from '../features/auth/SplashScreen.tsx';
+import SplashScreen from '../features/auth/SplashScreen';
 
 const Stack = createNativeStackNavigator();
 
-const Navigation: FC = () => {
+const Navigation= () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
         initialRouteName="SplashScreen"
         screenOptions={{
-          headerShown: false,
+          headerShown: false
         }}>
         <Stack.Screen name="SplashScreen" component={SplashScreen} />
+       
       </Stack.Navigator>
     </NavigationContainer>
   );
