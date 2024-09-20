@@ -17,8 +17,8 @@ var styles = react_native_1.StyleSheet.create({
         alignContent: 'center'
     },
     logoImage: {
-        height: Scaling_1.screenHeight * 0.7,
-        width: Scaling_1.screenWidth * 0.7,
+        height: Scaling_1.screenHeight * 0.3,
+        width: Scaling_1.screenWidth * 1,
         resizeMode: "contain"
     }
 });

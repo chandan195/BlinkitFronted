@@ -8,6 +8,7 @@ const SplashScreen = () => {
   return (
     <View style={styles.container}>
       <Image source={logo} style={styles.logoImage} />
+      
     </View>
   );
 };
@@ -20,9 +21,10 @@ const styles = StyleSheet.create({
     alignContent: 'center',
   },
   logoImage: {
-    height: screenHeight * 0.7,
-    width: screenWidth * 0.7,
-    resizeMode: "contain"
+    height: screenHeight *0.3,
+    width: screenWidth *1,
+    resizeMode: "contain",
+   
   },
 });
 export default SplashScreen;
